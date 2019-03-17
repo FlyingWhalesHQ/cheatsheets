@@ -5,7 +5,7 @@ parent: Rails
 nav_order: 3
 ---
 
-# Sidekiq
+# Sidekiq Cheatsheet
 
 ---
 

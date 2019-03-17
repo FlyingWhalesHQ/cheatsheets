@@ -24,6 +24,8 @@ parent: HTML
 <meta name="description" content="A description of the page">
 ```
 
+---
+
 ## Optional/Situational
 
 ```html
