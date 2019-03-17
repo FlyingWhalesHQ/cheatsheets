@@ -2,6 +2,7 @@
 layout: default
 title: Validations
 parent: Rails
+nav_order: 2
 ---
 
 # Rails Validations Cheatsheet
