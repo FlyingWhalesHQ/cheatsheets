@@ -33,11 +33,18 @@ ds.size
 ds.clear
 ```
 
-Queue all scheduled jobs immediately:
+Scheduled jobs stats and reset
 
 ```rb
 ss = Sidekiq::ScheduledSet.new
+ds.size
+ds.clear
+```
 
+Queue all scheduled jobs immediately
+
+```
+ss = Sidekiq::ScheduledSet.new
 ss.each do |job|
   job.reschedule(Time.now)
 end
