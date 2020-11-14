@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: cs4.dev
-email: your-email@example.com
+title: Cheatsheets
+email: hello@flyingwhales.io
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -27,8 +27,30 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: "just-the-docs"
-plugins:
-  - jekyll-feed
+plugins: []
+search_enabled: true
+# Split pages into sections that can be searched individually
+# Supports 1 - 6, default: 2
+search.heading_level: 2
+# Maximum amount of previews per search result
+# Default: 3
+search.previews: 3
+# Maximum amount of words to display before a matched word in the preview
+# Default: 5
+search.preview_words_before: 5
+# Maximum amount of words to display after a matched word in the preview
+# Default: 10
+search.preview_words_after: 10
+# Set the search token separator
+# Default: /[\s\-/]+/
+# Example: enable support for hyphenated search words
+search.tokenizer_separator: /[\s/]+/
+# Display the relative url in search results
+# Supports true (default) or false
+search.rel_url: false
+# Enable or disable the search button that appears in the bottom right corner of every page
+# Supports true or false (default)
+search.button: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
