@@ -43,7 +43,7 @@ ds.clear
 
 Queue all scheduled jobs immediately
 
-```
+```rb
 ss = Sidekiq::ScheduledSet.new
 ss.each do |job|
   job.reschedule(Time.now)
