@@ -4,7 +4,7 @@ title: Stimulus
 parent: JavaScript
 ---
 
-# Stimulus Cheatsheets
+# Stimulus Cheatsheet
 
 ---
 
