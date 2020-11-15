@@ -1,0 +1,12 @@
+Port,Protocol (abbr),Protocol
+20,FTP,File Transfer Protocol (data transfer)
+21,FTP,File Transfer Protocol (control command)
+22,SSH,Secure Shell
+23,Telnet,"Remote login service, unencrypted text messages"
+25,SMTP,Simple Mail Transfer Protocol
+53,DNS,Domain Name System
+80,HTTP,Hypertext Transfer Protocol,
+110,POP,Post Office Protocol
+143,IMAP,Internet Message Access Protocol
+194,IRC,Internet Relay Chat
+443,HTTPS,HTTP over TLS/SSL

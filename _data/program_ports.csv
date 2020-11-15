@@ -1,0 +1,8 @@
+Port,Program
+1194,OpenVPN
+"1433, 1434",Microsoft SQL Server
+3306,MySQL
+5432,Postgres
+6379,Redis
+"9200, 9300",ElasticSearch
+27017,MongoDB
