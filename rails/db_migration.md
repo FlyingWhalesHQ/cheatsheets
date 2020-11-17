@@ -96,10 +96,34 @@ Migrate and Rollback
 
 ```sh
 # Rails 3/4
-bundle exec rake db:migrate
-bundle exec rake db:rollback
+rake db:migrate
+rake db:rollback
 
 # Rails 5+
-bundle exec rails db:migrate
-bundle exec rails db:rollback
+rails db:migrate
+rails db:rollback
+
+# migrate/rollback a specific version
+rails db:migrate VERSION=version
+rails db:rollback VERSION=version
+
+# rollback several migrations
+rails db:rollback STEP=3
+
+# rollback and rerun migrations
+rails db:migrate:redo STEP=3
+```
+
+---
+
+Reset PK sequence for Postgres:
+
+```rb
+# single table
+ActiveRecord::Base.connection.reset_pk_sequence!(table_name)
+
+# all tables
+ActiveRecord::Base.connection.tables.each do |t|
+  ActiveRecord::Base.connection.reset_pk_sequence!(t)
+end
 ```
