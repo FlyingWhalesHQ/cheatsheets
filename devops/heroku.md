@@ -126,3 +126,13 @@ heroku maintenance:on   # Enable maintenance mode
 heroku maintenance:off  # Disable maintenance mode
 heroku maintenance      # Check maintenance status
 ```
+
+## Install nano editor in Heroku shell
+
+```sh
+mkdir /app/nano
+curl https://github.com/Ehryk/heroku-nano/raw/master/heroku-nano-2.5.1/nano.tar.gz --location --silent | tar xz -C /app/nano
+export PATH=$PATH:/app/nano
+```
+
+Reference: [https://stackoverflow.com/a/48168665](https://stackoverflow.com/a/48168665)
