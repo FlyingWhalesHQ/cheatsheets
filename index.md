@@ -9,8 +9,4 @@ nav_exclude: true
 
 ## Cheatsheets for Devs
 
-Welcome to __cs4.dev__ !
-
-This site contains a collection of cheatsheets being developed overtime for convenient development.
-
-Cheers,
+A collection of cheatsheets being developed overtime for convenient development.
