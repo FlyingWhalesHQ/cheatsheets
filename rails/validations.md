@@ -34,6 +34,22 @@ class Player < ApplicationRecord
 end
 ```
 
+## Conditional Validations
+
+```rb
+class User < ApplicationRecord
+  validates :password, confirmation: true,
+    unless: Proc.new { |a| a.password.blank? }
+  validates :name, if: :active?
+
+  # Group similar conditional validation
+  with_options if: :is_admin? do |admin|
+    admin.validates :password, length: { minimum: 10 }
+    admin.validates :email, presence: true
+  end
+end
+```
+
 ---
 
 ## Custom validators
