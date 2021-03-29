@@ -110,6 +110,6 @@ end
 
 ## Resources
 
-- Active Record Validations
-- The Perils of Uniqueness Validations
-- ValidatesTimeliness
+- [Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html)
+- [The Perils of Uniqueness Validations](https://thoughtbot.com/blog/the-perils-of-uniqueness-validations)
+- [ValidatesTimeliness gem](https://github.com/adzap/validates_timeliness)
