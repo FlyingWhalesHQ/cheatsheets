@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Watir
-parent: Rails
+parent: Ruby
 ---
 
 # Watir Cheatsheet
