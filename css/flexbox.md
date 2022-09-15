@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Flex
+title: Flexbox
 parent: CSS
 nav_order: 1
 ---
 
-# CSS Flex Cheatsheet
+# CSS Flexbox Cheatsheet
 
 Properties and attributes for flex containers/parents
 
@@ -42,3 +42,5 @@ flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
 
 - [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flex interactive demos by Yoksel](https://yoksel.github.io/flex-cheatsheet/)
+- [Flexbox Cheatsheet by Darek Kay](https://darekkay.com/flexbox-cheatsheet/)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
