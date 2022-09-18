@@ -6,6 +6,7 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
+<script defer data-domain="cheatsheets.dev" src="https://plausible.io/js/plausible.js"></script>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="svg-link" viewBox="0 0 24 24">
@@ -141,10 +142,9 @@ layout: table_wrappers
           <hr>
           <h2 class="text-delta">Table of contents</h2>
           <ul>
-            {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
-            {% for child in children_list %}
+            {% for child in toc_list %}
               <li>
-                <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
               </li>
             {% endfor %}
           </ul>

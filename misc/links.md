@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Interesting Links
-has_children: false
 permalink: /links
+parent: Misc
 ---
 
 # Interesting Links

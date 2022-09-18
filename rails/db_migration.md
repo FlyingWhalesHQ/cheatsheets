@@ -5,9 +5,7 @@ parent: Rails
 nav_order: 1
 ---
 
-# Rails DB Migrations Cheatsheet
-
----
+{% include toc.md %}
 
 Column data types
 

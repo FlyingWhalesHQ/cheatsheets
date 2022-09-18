@@ -2,6 +2,7 @@
 layout: default
 title: ImageMagick sizes
 permalink: /imagemagick-sizes/
+parent: Misc
 ---
 
 # ImageMagick Sizes Cheatsheet

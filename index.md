@@ -9,6 +9,6 @@ nav_exclude: true
 
 ## Cheatsheets for Devs
 
-A collection of cheatsheets being developed overtime for convenient development.
+A collection of cheatsheets for programming and other subjects.
 
 You're welcome to contribute to improve existing cheatsheets or add new ones. Please open a PR at [https://github.com/FlyingWhalesHQ/cheatsheets](https://github.com/FlyingWhalesHQ/cheatsheets)

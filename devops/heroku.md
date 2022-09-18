@@ -4,9 +4,7 @@ title: Heroku
 parent: Devops
 ---
 
-# Heroku Cheatsheet
-
----
+{% include toc.md %}
 
 ## Basic
 

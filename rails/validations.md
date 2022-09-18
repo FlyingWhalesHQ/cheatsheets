@@ -5,9 +5,7 @@ parent: Rails
 nav_order: 2
 ---
 
-# Rails Validations Cheatsheet
-
----
+{% include toc.md title="Rails Validations Cheatsheets" %}
 
 ## Builtin Validators
 
