@@ -11,6 +11,16 @@ parent: Resources
 - [The Joy of Cryptography](https://joyofcryptography.com/)
 by Mike Rosulek
 
+## Courses:
+
+- [CS221: Artificial Intelligence Principles and Techniques - Standford](https://stanford-cs221.github.io/autumn2022/)
+
+- [CS229: Machine Learning - Standford](https://cs229.stanford.edu)
+
+- [CS230: Deep Learning - Standford](https://cs230.stanford.edu)
+
+- [Introduction to Deep Learning - MIT](http://introtodeeplearning.com)
+
 ## Online Tools
 
 - [Visualgo](https://visualgo.net/en)
