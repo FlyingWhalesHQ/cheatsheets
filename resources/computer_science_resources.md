@@ -21,6 +21,8 @@ by Mike Rosulek
 
 - [Introduction to Deep Learning - MIT](http://introtodeeplearning.com)
 
+- [Introduction to Computer Science - Harvard](https://cs50.harvard.edu/x/2023/)
+
 ## Online Tools
 
 - [Visualgo](https://visualgo.net/en)
